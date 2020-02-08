@@ -1,0 +1,91 @@
+body {
+	background-color: pink;
+	color: black;
+	font-family: times;
+	font-size: 18px;
+}
+
+h1 {
+	color: red;
+	font-family: courier;
+	font-weight: lighter;
+	font-weight: 100;
+	letter-spacing: 5px;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: red;
+	font-family: courier;
+	font-weight: lighter;
+	letter-spacing: 10px;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+a:hover {
+	color: purple;
+}
+
+.container {
+	width:700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+		background-color: red;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+		background-color: red;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding:40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align:center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+
+#travel {
+	width: 400px;
+}
+
+#fashion {
+	width: 400px;
+}
+
+#environ {
+	width: 400px;
+}
+
+#facebook {
+	width: 80px;
+}
+
+#linkedin {
+	width: 80px;
+}
+
+#instagram {
+	width: 80px;
+}
+
+#profile {
+	width: 200px;
+}
